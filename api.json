@@ -1,0 +1,646 @@
+{
+  "category": "UNDEAD",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/soucouyant",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "soucouyant",
+    "name": "Soucouyant",
+    "aliases": [
+      {
+        "name": "Soucouyan",
+        "language": "French Creole",
+        "region": "Trinidad & Tobago",
+        "meaning": "Variant spelling"
+      },
+      {
+        "name": "Soucriant",
+        "language": "French Creole",
+        "region": "Caribbean",
+        "meaning": "Variant spelling"
+      },
+      {
+        "name": "Ole Higue",
+        "language": "Dutch Creole",
+        "region": "Guyana, Suriname",
+        "meaning": "Old hag"
+      },
+      {
+        "name": "Loogaroo",
+        "language": "French Creole",
+        "region": "Haiti, Lesser Antilles",
+        "meaning": "From French 'loup-garou' (werewolf)"
+      },
+      {
+        "name": "Fire Hag",
+        "language": "English",
+        "region": "Caribbean",
+        "meaning": "Descriptive name"
+      },
+      {
+        "name": "Fireball Woman",
+        "language": "English",
+        "region": "Trinidad",
+        "meaning": "Based on appearance"
+      }
+    ],
+    "category": "UNDEAD",
+    "subcategory": "Vampire",
+    "tags": [
+      "vampire",
+      "shapeshifter",
+      "fire",
+      "blood-drinker",
+      "caribbean",
+      "african-diaspora",
+      "nocturnal",
+      "folklore",
+      "witch"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "A Caribbean vampire witch of African diaspora origin that sheds her skin at night, transforms into a ball of fire, and flies through the darkness seeking victims to drain of blood. Found primarily in Trinidad and Tobago folklore with variants across the Caribbean.",
+      "full": "The Soucouyant is one of the most feared supernatural entities in Caribbean folklore, representing a complex fusion of African, European, and indigenous Caribbean beliefs. By day, she appears as an old woman, often living at the margins of society. By night, she removes her skin, hides it, and transforms into a fireball that soars through the sky. The Soucouyant enters homes through any opening to suck blood from sleeping victims, leaving bruises or mysterious wounds. Originating from West African vampire traditions brought by enslaved peoples and merging with French and Spanish folklore, the Soucouyant embodies themes of female power, aging, social ostracism, and the legacy of colonialism. Protection methods include salt, rice grains (which she must count), and garlic. If her hidden skin is found and salted, she cannot return to human form and will die at sunrise."
+    },
+    "etymology": {
+      "origin": "From French Creole, possibly derived from 'sucer le sang' (to suck blood) or 'soucrier' (witch/sorcerer). The term evolved in Caribbean French Creole communities.",
+      "meaning": "Blood-sucker or witch; one who sucks life force",
+      "first_use": "Oral traditions from plantation era (1700s-1800s), first written records late 19th century"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "UNDEAD",
+      "type": "Vampire",
+      "subtype": "Shapeshifting Blood-Drinker",
+      "variant": "Caribbean Fire Vampire"
+    },
+    "related_phenomena": [
+      {
+        "id": "ole-higue",
+        "name": "Ole Higue",
+        "relationship": "regional_variant",
+        "description": "Guyanese equivalent, similar characteristics but Dutch Creole influence"
+      },
+      {
+        "id": "loogaroo",
+        "name": "Loogaroo",
+        "relationship": "regional_variant",
+        "description": "Haitian and Lesser Antilles vampire witch, closely related"
+      },
+      {
+        "id": "asema",
+        "name": "Asema",
+        "relationship": "cultural_cousin",
+        "description": "Surinamese vampire that sheds skin, African Maroon traditions"
+      },
+      {
+        "id": "adze",
+        "name": "Adze",
+        "relationship": "ancestral",
+        "description": "West African vampire spirit, likely ancestral to Soucouyant"
+      },
+      {
+        "id": "obayifo",
+        "name": "Obayifo",
+        "relationship": "ancestral",
+        "description": "Ghanaian/Ashanti vampire witch, probable African origin"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "human_form": {
+        "appearance": "Elderly woman, often living alone",
+        "age": "Always portrayed as old or aging",
+        "distinguishing_marks": [
+          "Bruises on arms from victims' struggles",
+          "Red, bloodshot eyes",
+          "Secretive, suspicious behavior",
+          "Lives in isolated areas"
+        ]
+      },
+      "transformed_form": {
+        "appearance": "Ball of fire or flame",
+        "coloration": [
+          "red",
+          "orange",
+          "blue (hottest flames)",
+          "yellow"
+        ],
+        "size": "Baseball to basketball size fireball",
+        "features": [
+          {
+            "feature": "Flame body",
+            "description": "Pure fire, no physical form visible",
+            "frequency": "always"
+          },
+          {
+            "feature": "Trailing sparks",
+            "description": "Leaves trail of sparks when flying",
+            "frequency": "common"
+          },
+          {
+            "feature": "Variable brightness",
+            "description": "Can dim to avoid detection",
+            "frequency": "common"
+          }
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "ability": "Skin shedding",
+        "description": "Removes and stores skin to transform",
+        "frequency": "nightly",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Fire transformation",
+        "description": "Becomes ball of fire after removing skin",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Flight",
+        "description": "Flies through night sky as fireball",
+        "frequency": "nightly",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Blood draining",
+        "description": "Sucks blood from sleeping victims",
+        "frequency": "nightly",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Entry through small openings",
+        "description": "Can enter through keyholes, cracks, any opening",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Compulsive counting",
+        "description": "Must count scattered rice, sand, or seeds",
+        "frequency": "when encountering seeds",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Devil's contract",
+        "description": "Some traditions say she has pact requiring blood sacrifice",
+        "frequency": "varies",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "malevolent",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "village outskirts",
+        "isolated houses",
+        "near forests",
+        "marginal communities"
+      ],
+      "diet": "Blood (primarily human, occasionally animal)",
+      "patterns": [
+        "Returns to skin before sunrise",
+        "Often targets children and sleeping victims",
+        "May visit same victims multiple times",
+        "Becomes more aggressive when hungry",
+        "Cannot cross running water without returning to human form"
+      ]
+    },
+    "vulnerabilities": [
+      {
+        "method": "Salt on skin",
+        "description": "Salting hidden skin prevents re-entry; soucouyant burns in sunlight",
+        "effectiveness": "lethal"
+      },
+      {
+        "method": "Scattered rice/seeds",
+        "description": "Must count every grain, occupies her until sunrise",
+        "effectiveness": "high"
+      },
+      {
+        "method": "Garlic",
+        "description": "Repels soucouyant, can be hung at doors/windows",
+        "effectiveness": "medium"
+      },
+      {
+        "method": "Crucifix",
+        "description": "Christian protection, varies by belief",
+        "effectiveness": "medium"
+      },
+      {
+        "method": "Turning clothes inside out",
+        "description": "Confuses soucouyant",
+        "effectiveness": "low"
+      },
+      {
+        "method": "Blocking openings",
+        "description": "Seal cracks, keyholes with garlic, salt, or herbs",
+        "effectiveness": "medium"
+      }
+    ]
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Primarily Trinidad and Tobago with variants throughout the Caribbean, particularly in former French and Spanish colonies. Strongest traditions in African diaspora communities.",
+      "continents": ["North America", "South America"],
+      "countries": [
+        "Trinidad and Tobago",
+        "Haiti",
+        "Guyana",
+        "Suriname",
+        "Dominica",
+        "Saint Lucia",
+        "Grenada",
+        "Dominican Republic"
+      ],
+      "regions": [
+        "Lesser Antilles",
+        "Greater Antilles",
+        "Caribbean Coast",
+        "South American Caribbean"
+      ]
+    },
+    "cultural_distribution": {
+      "primary": "Afro-Caribbean communities",
+      "secondary": "French Creole populations",
+      "influence": "Mixed indigenous, African, European traditions"
+    },
+    "hotspots": [
+      {
+        "name": "Trinidad",
+        "location": {
+          "description": "Throughout Trinidad, especially rural areas",
+          "country": "Trinidad and Tobago",
+          "region": "Trinidad",
+          "coordinates": {
+            "latitude": 10.6918,
+            "longitude": -61.2225
+          }
+        },
+        "significance": "Strongest and most detailed soucouyant traditions",
+        "notes": "Core of soucouyant folklore, extensive oral traditions"
+      },
+      {
+        "name": "Tobago",
+        "location": {
+          "description": "Tobago island",
+          "country": "Trinidad and Tobago",
+          "region": "Tobago",
+          "coordinates": {
+            "latitude": 11.2500,
+            "longitude": -60.6667
+          }
+        },
+        "significance": "Parallel traditions to Trinidad",
+        "notes": "Village-level folklore remains strong"
+      },
+      {
+        "name": "Rural Dominica",
+        "location": {
+          "description": "Rural and mountain villages",
+          "country": "Dominica",
+          "region": "Lesser Antilles",
+          "coordinates": {
+            "latitude": 15.4150,
+            "longitude": -61.3710
+          }
+        },
+        "significance": "Loogaroo variant traditions",
+        "notes": "French Creole influences strong"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "1700s",
+        "circa": true,
+        "source": "Oral traditions from plantation era"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Colonial era through early 20th century",
+          "description": "Strongest belief and most accounts during plantation and post-emancipation periods"
+        },
+        {
+          "period": "Contemporary",
+          "description": "Continues in rural areas and cultural memory; experiencing revival through literature and cultural studies"
+        }
+      ],
+      "seasonal_patterns": "More active during new moon; some traditions associate with dry season"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "The Soucouyant originates from West African vampire and witch traditions brought to the Caribbean by enslaved peoples. It represents a syncretism of Yoruba, Dahomey, and other West African beliefs with European vampire folklore (particularly French loup-garou traditions) and indigenous Caribbean spirituality.",
+      "earliest_accounts": "Oral traditions date to early plantation era (1700s). First written documentation appears in late 19th century travel narratives and ethnographic studies.",
+      "folklore_connections": "Connected to African Obayifo (Ashanti), Asasabonsam, and Adze; European vampire and witch traditions; Caribbean obeah and voodoo practices."
+    },
+    "historical_context": {
+      "slavery_connection": "Soucouyant legends emerged during and after the transatlantic slave trade, carrying African spiritual beliefs that helped enslaved peoples maintain cultural identity and explain suffering.",
+      "colonial_power_dynamics": "The figure of the old woman witch reflects gender and age dynamics in plantation societies, where elderly women (especially those living alone) were vulnerable to accusations.",
+      "post_emancipation": "Stories intensified in post-emancipation period as communities grappled with freedom, poverty, and continued marginalization.",
+      "social_function": "Served to enforce social norms, explain illness and death, and provide cautionary tales about greed, envy, and isolation."
+    },
+    "timeline": [
+      {
+        "date": "1700s",
+        "event": "Soucouyant traditions established in Trinidad",
+        "significance": "Enslaved West Africans bring vampire-witch beliefs to Caribbean plantations",
+        "source": "Oral traditions, plantation records"
+      },
+      {
+        "date": "1800s",
+        "event": "Post-emancipation proliferation",
+        "significance": "Stories spread and evolve in freed communities across Caribbean",
+        "source": "Ethnographic studies"
+      },
+      {
+        "date": "1888",
+        "event": "First documented written account",
+        "significance": "Travel writer Charles Kingsley documents 'fire-ball women' in Trinidad",
+        "source": "At Last: A Christmas in the West Indies"
+      },
+      {
+        "date": "1930s-1940s",
+        "event": "Academic documentation begins",
+        "significance": "Anthropologists record soucouyant folklore systematically",
+        "source": "Melville Herskovits, Martha Beckwith"
+      },
+      {
+        "date": "1976",
+        "event": "Cultural renaissance",
+        "significance": "Trinidad independence movement revives interest in local folklore",
+        "source": "Cultural publications"
+      },
+      {
+        "date": "2000s-present",
+        "event": "Literary and cultural revival",
+        "significance": "Caribbean authors incorporate soucouyant in literature, art, and cultural discourse",
+        "source": "Nalo Hopkinson, David Chariandy, academic studies"
+      }
+    ],
+    "modern_era": "The Soucouyant remains a living tradition in rural Caribbean communities while experiencing academic and literary revival. Contemporary discussions address its significance in understanding African diaspora cultural retention, gender dynamics, and postcolonial identity. Caribbean authors use the soucouyant as metaphor for cultural displacement, aging, and female power."
+  },
+
+  "accounts": {
+    "historical": [
+      {
+        "date": "1888",
+        "account": "Charles Kingsley documentation",
+        "description": "English travel writer documents Trinidadian beliefs in 'fire-ball women' who shed their skins and fly as flames to suck blood",
+        "source": "At Last: A Christmas in the West Indies",
+        "significance": "First detailed European written account"
+      },
+      {
+        "date": "1940s",
+        "account": "Village accusations",
+        "description": "Multiple documented cases of elderly women accused of being soucouyants in rural Trinidad villages, leading to social ostracism",
+        "source": "Anthropological field notes, oral histories",
+        "significance": "Demonstrates social impact of belief"
+      }
+    ],
+    "contemporary": [
+      {
+        "date": "1970s-1990s",
+        "account": "Childhood protection rituals",
+        "description": "Widespread practice of placing rice, scissors, or brooms outside children's rooms to protect from soucouyants",
+        "source": "Personal testimonies, ethnographic studies",
+        "significance": "Shows continuing tradition"
+      },
+      {
+        "date": "2000s",
+        "account": "Fireball sightings",
+        "description": "Rural communities continue to report mysterious fireballs moving through night sky, attributed to soucouyants",
+        "source": "Local news, community reports",
+        "significance": "Active folkloric tradition"
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Scattering rice at thresholds",
+        "Hanging garlic at doors and windows",
+        "Turning clothes inside out for protection",
+        "Placing brooms at entrances",
+        "Children taught protective rituals"
+      ],
+      "stories": [
+        "The soucouyant's skin found and salted by village youth",
+        "Child marked by repeated soucouyant attacks",
+        "Suspicious old woman discovered as soucouyant",
+        "Devil's contract requiring blood tribute",
+        "Transformation witnessed accidentally"
+      ],
+      "beliefs": "The soucouyant embodies fears of the other, aging, female power, and death. She represents marginalized individuals (elderly women) transformed into threatening forces. Stories serve as cautionary tales about community boundaries and social cohesion."
+    },
+    "african_diaspora": {
+      "origins": [
+        "Yoruba spiritual beliefs (Nigeria)",
+        "Ashanti Obayifo traditions (Ghana)",
+        "Dahomean vampire beliefs (Benin)",
+        "Hausa witch traditions (West Africa)"
+      ],
+      "significance": "The Soucouyant represents one of the strongest examples of African cultural retention in the Caribbean. Despite centuries of oppression, enslaved peoples preserved and adapted these beliefs, creating a distinctly Caribbean yet recognizably African entity. The soucouyant embodies resistance to cultural erasure and the resilience of African diaspora identity.",
+      "syncretism": "Blends African vampire-witch with French Catholic and indigenous Caribbean elements, creating unique Creole folklore.",
+      "social_function": "Provided explanatory framework for misfortune, illness, and death in communities lacking medical resources; reinforced community bonds through shared protective practices.",
+      "resistance": "Some scholars interpret soucouyant stories as encoded resistance narratives, where the marginalized figure gains power through supernatural means, inverting colonial power structures."
+    },
+    "gender_dynamics": {
+      "female_power": "Almost exclusively female entity, representing anxieties about female power and autonomy, particularly older women outside male control",
+      "aging": "Always portrayed as old woman, reflecting societal attitudes toward aging women and their perceived danger",
+      "marginalization": "Targets the socially marginal—widows, women living alone, those practicing traditional healing—reflecting vulnerability to accusations"
+    },
+    "indigenous": {
+      "cultures": [
+        "Taíno remnant populations",
+        "Kalinago (Dominica)"
+      ],
+      "significance": "Some scholars argue indigenous Caribbean vampire beliefs merged with African and European traditions",
+      "notes": "Indigenous contribution less documented due to colonial devastation but may include spirit beliefs that merged with soucouyant concept"
+    },
+    "popular_culture": {
+      "literature": [
+        "\"Skin Folk\" by Nalo Hopkinson (2001)",
+        "\"Soucouyant\" by David Chariandy (2007)",
+        "\"The Jumbies\" series by Tracey Baptiste (2015-)",
+        "\"Caribbean Gothic\" edited by Marlon James (various)"
+      ],
+      "film_tv": [
+        "\"Soucouyant\" (2007 film)",
+        "Referenced in Caribbean horror anthology films",
+        "Featured in supernatural TV series set in Caribbean"
+      ],
+      "art": [
+        "Carnival representations in Trinidad",
+        "Caribbean visual art exploring folkloric themes",
+        "Contemporary Afro-Caribbean art reclaiming the figure"
+      ],
+      "music": [
+        "Calypso songs referencing soucouyants",
+        "Contemporary Caribbean artists using imagery"
+      ],
+      "other": [
+        "Tourist folklore tours in Trinidad",
+        "Academic conferences on Caribbean folklore",
+        "Cultural education programs in schools"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Melville J. Herskovits",
+        "affiliation": "Northwestern University",
+        "contribution": "Pioneering work on African cultural retentions in New World, documented Caribbean folklore including soucouyant",
+        "period": "1930s-1960s"
+      },
+      {
+        "name": "Martha Warren Beckwith",
+        "affiliation": "Vassar College",
+        "contribution": "Extensive documentation of Caribbean folklore and African influences",
+        "period": "1920s-1950s"
+      },
+      {
+        "name": "J.D. Elder",
+        "affiliation": "Trinidad folklorist",
+        "contribution": "Comprehensive documentation of Trinidadian folklore including soucouyant traditions",
+        "period": "1960s-1990s"
+      },
+      {
+        "name": "Kamau Brathwaite",
+        "affiliation": "University of the West Indies",
+        "contribution": "Literary and cultural analysis of Caribbean folklore within postcolonial context",
+        "period": "1970s-2000s"
+      },
+      {
+        "name": "Patricia J. Saunders",
+        "affiliation": "Various Caribbean studies programs",
+        "contribution": "Contemporary analysis of soucouyant in gender and postcolonial studies",
+        "period": "1990s-present"
+      }
+    ],
+    "academic_fields": [
+      "Caribbean Studies",
+      "African Diaspora Studies",
+      "Folklore and Mythology",
+      "Postcolonial Studies",
+      "Gender Studies",
+      "Religious Studies (syncretism)",
+      "Anthropology"
+    ],
+    "ongoing_studies": "Contemporary research focuses on soucouyant as cultural memory, resistance narrative, and expression of diaspora identity. Digital humanities projects document regional variations. Literary scholars analyze soucouyant in Caribbean Gothic and speculative fiction."
+  },
+
+  "protection_methods": {
+    "traditional": [
+      {
+        "method": "Rice scattering",
+        "description": "Scatter rice at doorways, windows, and around bed; soucouyant must count every grain",
+        "effectiveness": "High",
+        "cultural_origin": "African and European folklore"
+      },
+      {
+        "method": "Garlic hanging",
+        "description": "Hang garlic bulbs or cloves at all openings",
+        "effectiveness": "Medium-High",
+        "cultural_origin": "European vampire traditions"
+      },
+      {
+        "method": "Salt application",
+        "description": "If skin found, salt it heavily to prevent re-entry; creates burns",
+        "effectiveness": "Lethal to soucouyant",
+        "cultural_origin": "European and African traditions"
+      },
+      {
+        "method": "Inverted clothing",
+        "description": "Turn clothes inside out or wear backwards to confuse soucouyant",
+        "effectiveness": "Low-Medium",
+        "cultural_origin": "Caribbean folk practice"
+      },
+      {
+        "method": "Broom at threshold",
+        "description": "Place broom bristles-up at door; soucouyant must count bristles",
+        "effectiveness": "Medium",
+        "cultural_origin": "African diaspora tradition"
+      },
+      {
+        "method": "Crosses and religious items",
+        "description": "Display crucifixes, religious medals, blessed water",
+        "effectiveness": "Varies by belief",
+        "cultural_origin": "Christian syncretism"
+      },
+      {
+        "method": "Sealing openings",
+        "description": "Block all cracks, keyholes, and openings with cloth, salt, or herbs",
+        "effectiveness": "Medium",
+        "cultural_origin": "Multiple traditions"
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "herskovits-1947",
+      "type": "book",
+      "title": "Trinidad Village",
+      "authors": ["Melville J. Herskovits", "Frances S. Herskovits"],
+      "publication": "Alfred A. Knopf",
+      "date": "1947",
+      "isbn": "N/A"
+    },
+    {
+      "id": "elder-1988",
+      "type": "book",
+      "title": "Ma Rose Point: An Anthology of Rare and Strange Legends from Trinidad & Tobago",
+      "authors": ["J.D. Elder"],
+      "publication": "National Cultural Council of Trinidad and Tobago",
+      "date": "1988",
+      "isbn": "N/A"
+    },
+    {
+      "id": "kingsley-1888",
+      "type": "book",
+      "title": "At Last: A Christmas in the West Indies",
+      "authors": ["Charles Kingsley"],
+      "publication": "Macmillan and Co.",
+      "date": "1888",
+      "url": "Project Gutenberg"
+    },
+    {
+      "id": "hopkinson-2001",
+      "type": "book",
+      "title": "Skin Folk",
+      "authors": ["Nalo Hopkinson"],
+      "publication": "Warner Books",
+      "date": "2001",
+      "isbn": "978-0446677509"
+    }
+  ]
+}
